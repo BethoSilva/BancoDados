@@ -1,64 +1,14 @@
 {
-  "Usuarios": [
-    {
-      "nome": "KALEB",
-      "sobrenome": "FERREIRA NASCIMENTO SILVA",
-      "email": "KALEB@KALEB",
-      "contato": "(38) 99202-3372",
-      "nascimento": "05/10/2021",
-      "cpf": "123.456.789-00",
-      "numero": "489",
-      "cep": "39.404-404",
-      "rua": "Rua B",
-      "bairro": "Santos Dumont",
-      "cidade": "Montes Claros",
-      "estado": "MG",
-      "login": "KAKA",
-      "perfil": "OPERADOR",
-      "senha": "123",
-      "senhaRep": "123",
-      "id": 1
-    },
-    {
-      "nome": "ADRIANA",
-      "sobrenome": "FERREIRA ",
-      "email": "DRI@DRI",
-      "contato": "(38) 99999-9999",
-      "nascimento": "20/19/1996",
-      "cpf": "098.765.432-31",
-      "numero": "489",
-      "cep": "39.404-404",
-      "rua": "Rua B",
-      "bairro": "Santos Dumont",
-      "cidade": "Montes Claros",
-      "estado": "MG",
-      "login": "DRI",
-      "perfil": "ADMINISTRADOR",
-      "senha": "234",
-      "senhaRep": "234",
-      "id": 2
-    },
-    {
-      "nome": "HUMBERTO",
-      "sobrenome": "SILVA FERREIRA",
-      "email": "BETHO@BTH",
-      "contato": "(38) 99202-3372",
-      "nascimento": "20/11/1982",
-      "cpf": "019.283.746-55",
-      "numero": "489",
-      "cep": "39.404-404",
-      "rua": "Rua B",
-      "bairro": "Santos Dumont",
-      "cidade": "Montes Claros",
-      "estado": "MG",
-      "login": "BTHO",
-      "perfil": "ADMINISTRADOR",
-      "senha": "345",
-      "senhaRep": "345",
-      "id": 3
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
     }
-],
-  "Token": {
-    "token": "token12345"
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
