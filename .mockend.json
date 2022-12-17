@@ -58,7 +58,7 @@
       "id": 3
     }
   ],
-  "Token": {
+  "Token": [{
     "token": "token12345"
-  }
+  }]
 }
