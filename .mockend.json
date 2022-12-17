@@ -1,6 +1,6 @@
 {
   "Post": {
-    "Usuarios":[
+    "Usuarios":{
      {
       "nome": "KALEB",
       "sobrenome": "FERREIRA NASCIMENTO SILVA",
@@ -57,7 +57,7 @@
       "senha": "345",
       "senhaRep": "345",
       "id": 3
-    }],
+    }},
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
