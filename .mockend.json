@@ -1,5 +1,5 @@
 {
-  "Usuarios": {
+  "Usuarios": [
     {
       "nome": "KALEB",
       "sobrenome": "FERREIRA NASCIMENTO SILVA",
@@ -57,7 +57,7 @@
       "senhaRep": "345",
       "id": 3
     }
-},
+],
   "Token": {
     "token": "token12345"
   }
